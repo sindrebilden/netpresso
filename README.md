@@ -58,6 +58,7 @@ Then each transistor can be soldered to their corresponding button on the front 
 ![image](https://github.com/sindrebilden/netpresso/assets/43905215/7b502b2f-9c7e-442a-9dba-33e8d9ead764)
 
 The Magnifica S has some unused fields on it's breadboard wich both provides 5V and ground. To power the ESP8266 board we can solder some wires to the corresponding fields.
+
 <img width="600" alt="image" src="https://github.com/sindrebilden/netpresso/assets/43905215/dc2550b8-2d0d-4aeb-8c1a-4cc62694c225" />
 <img width="300" alt="image" src="https://github.com/sindrebilden/netpresso/assets/43905215/1acf1ee6-bb80-4b86-90b7-80e93b801919" />
 
