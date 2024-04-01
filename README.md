@@ -53,7 +53,7 @@ First the base of the transistors (the middle leg) should be wired to the resist
 Then each transistor can be soldered to their corresponding button on the front panel. 
 > [!IMPORTANT]
 > The transistor must be placed in the correct direction of the voltage drop, use a voltmeter to determine the direction.
-> The collector (left leg facing the flat side of the transistor) should be at the highest potential.
+> The collector (left leg when facing the flat side of the transistor) should be at the highest potential.
 
 ![image](https://github.com/sindrebilden/netpresso/assets/43905215/7b502b2f-9c7e-442a-9dba-33e8d9ead764)
 
