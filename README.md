@@ -39,7 +39,7 @@ Feel free to adjust the number of buttons to your own needs.
 > A transistor can function as a switch, this project utilizes this property to simulate the push of a button.
 > 
 > A simplified diagram illustrates the concept, the resistor will be connected to one of the GPIO's on the ESP8266 board.
-> <img width="206" alt="image" src="https://github.com/sindrebilden/netpresso/assets/43905215/58dedd62-53e7-43e5-a602-413b00e35fb7">
+> ![image]("https://github.com/sindrebilden/netpresso/assets/43905215/58dedd62-53e7-43e5-a602-413b00e35fb7")
 >
 > A transistor will have some leakage current leaking into the circuit of the button, we add a resistor with high resistance in order to minimize the leakage.
 > Since we don't know the full resistance in the circuit of the button we should make it as high as possible but still allow the transistor to respond to the signal sent from the ESP8266 board.
