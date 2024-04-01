@@ -39,7 +39,7 @@ Feel free to adjust the number of buttons to your own needs.
 > A transistor can function as a switch, this project utilizes this property to simulate the push of a button.
 > 
 > A simplified diagram illustrates the concept, the resistor will be connected to one of the GPIO's on the ESP8266 board.
-> ![image]("https://github.com/sindrebilden/netpresso/assets/43905215/58dedd62-53e7-43e5-a602-413b00e35fb7")
+> ![image](https://github.com/sindrebilden/netpresso/assets/43905215/58dedd62-53e7-43e5-a602-413b00e35fb7)
 >
 > A transistor will have some leakage current leaking into the circuit of the button, we add a resistor with high resistance in order to minimize the leakage.
 > Since we don't know the full resistance in the circuit of the button we should make it as high as possible but still allow the transistor to respond to the signal sent from the ESP8266 board.
@@ -48,7 +48,7 @@ Feel free to adjust the number of buttons to your own needs.
 ## Soldering
 
 First the base of the transistors (the middle leg) should be wired to the resistor. It may be useful to connect some wire in between to add flexibility.
-![image]("https://github.com/sindrebilden/netpresso/assets/43905215/f05c1eaf-5fe3-445e-8d6e-a1f7d2e10d13")
+![image](https://github.com/sindrebilden/netpresso/assets/43905215/f05c1eaf-5fe3-445e-8d6e-a1f7d2e10d13)
 
 Then each transistor must be soldered to the button on the front panel. 
 ![image](https://github.com/sindrebilden/netpresso/assets/43905215/7b502b2f-9c7e-442a-9dba-33e8d9ead764)
@@ -60,7 +60,7 @@ Then each transistor must be soldered to the button on the front panel.
 To power the ESP8266 board we can 
 ![image](https://github.com/sindrebilden/netpresso/assets/43905215/dc2550b8-2d0d-4aeb-8c1a-4cc62694c225)
 
-![image]("https://github.com/sindrebilden/netpresso/assets/43905215/1acf1ee6-bb80-4b86-90b7-80e93b801919")
+![image](https://github.com/sindrebilden/netpresso/assets/43905215/1acf1ee6-bb80-4b86-90b7-80e93b801919)
 
 
 # References
