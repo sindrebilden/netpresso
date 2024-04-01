@@ -47,6 +47,21 @@ Feel free to adjust the number of buttons to your own needs.
 
 ## Soldering
 
+First the base of the transistors (the middle leg) should be wired to the resistor. It may be useful to connect some wire in between to add flexibility.
+![image]("https://github.com/sindrebilden/netpresso/assets/43905215/f05c1eaf-5fe3-445e-8d6e-a1f7d2e10d13")
+
+Then each transistor must be soldered to the button on the front panel. 
+![image](https://github.com/sindrebilden/netpresso/assets/43905215/7b502b2f-9c7e-442a-9dba-33e8d9ead764)
+
+> [!TIP]
+> The transistor must be placed in the correct direction of the voltage drop, use a voltmeter to determine the direction.
+> The collector (left leg facing the flat side of the transistor) should be at the highest potential.
+
+To power the ESP8266 board we can 
+![image](https://github.com/sindrebilden/netpresso/assets/43905215/dc2550b8-2d0d-4aeb-8c1a-4cc62694c225)
+
+![image]("https://github.com/sindrebilden/netpresso/assets/43905215/1acf1ee6-bb80-4b86-90b7-80e93b801919")
+
 
 # References
 [Pinout ESP8266](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/)
