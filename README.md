@@ -57,11 +57,17 @@ Then each transistor must be soldered to the button on the front panel.
 > The transistor must be placed in the correct direction of the voltage drop, use a voltmeter to determine the direction.
 > The collector (left leg facing the flat side of the transistor) should be at the highest potential.
 
-To power the ESP8266 board we can 
-![image](https://github.com/sindrebilden/netpresso/assets/43905215/dc2550b8-2d0d-4aeb-8c1a-4cc62694c225)
+The Magnifica S has some unused fields on it's breadboard wich both provides 5V and ground. To power the ESP8266 board we can solder some wires to the corresponding fields.
+<img width="300" alt="image" src="https://github.com/sindrebilden/netpresso/assets/43905215/dc2550b8-2d0d-4aeb-8c1a-4cc62694c225" />
+<img width="300" alt="image" src="https://github.com/sindrebilden/netpresso/assets/43905215/1acf1ee6-bb80-4b86-90b7-80e93b801919" />
 
-![image](https://github.com/sindrebilden/netpresso/assets/43905215/1acf1ee6-bb80-4b86-90b7-80e93b801919)
+The transistors wired on the front panel can be connected to the GPIOS on the ESP8266 board, the table below presents the how it's done in this project:
 
+| GPIO | Wire Color | Button on panel |
+|------|------------|-----------------|
+| D5   | Blue       | Power           |
+| D6   | Purple     | Espresso        |
+| D7   | Yellow     | Americano       |
 
 # References
 [Pinout ESP8266](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/)
