@@ -24,10 +24,8 @@ In addition to the components above you will need tools like a soldering iron an
 ## Coffee Machine
 The project uses a DeLonghi Magnifica S, but many other similar machines will probably work.
 
-| :warning: WARNING                                                                     |
-|:--------------------------------------------------------------------------------------|
-| This project will break any warrany on your coffee machine, do this at your own risk! |
-
+> [!WARNING]
+> This project will break any warrany on your coffee machine, do this at your own risk!
 
 # Procedure
 First, brew yourself a coffe, it will be the last from this particular machine for a while. 
