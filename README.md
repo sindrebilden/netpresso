@@ -48,6 +48,10 @@ Feel free to adjust the number of buttons to your own needs.
 ## Programming
 It is easiest to program the ESP8266 board before soldering, [an example is found here](/netpresso.ino).
 
+On first boot Netpresso will set up a fallback access point.
+Connect to the network and navigate to `netpresso.local`, at that site it is possible to provide SSID and password for your home network.
+
+
 | Address    | Description               | GPIO on ESP8226 |
 |------------|---------------------------|-----------------|
 | /          | Dashboard                 |                 |
