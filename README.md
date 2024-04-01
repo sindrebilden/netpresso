@@ -45,6 +45,20 @@ Feel free to adjust the number of buttons to your own needs.
 > Since we don't know the full resistance in the circuit of the button we should make it as high as possible but still allow the transistor to respond to the signal sent from the ESP8266 board.
 > I went with 43 kΩ but feel free to adjust.
 
+## Programming
+It is easiest to program the ESP8266 board before soldering, [an example is found here](/netpresso.ino).
+
+| Address    | Description               | GPIO on ESP8226 |
+|------------|---------------------------|-----------------|
+| /          | Dashboard                 |                 |
+| /power     | Activate power button     | D5              |
+| /espresso  | Activate espresso button  | D6              |
+| /americano | Activate americano button | D7              |
+
+After connecting to a network it can be reset with by accessing root at it's IP address on the local network.
+<img width="462" alt="image" src="https://github.com/sindrebilden/netpresso/assets/43905215/eb397f04-a58d-4bc4-b450-1f5a7f93cbaa">
+
+
 ## Soldering
 
 First the base of the transistors (the middle leg) should be wired to the resistor. It may be useful to connect some wire in between to add flexibility.
@@ -52,8 +66,8 @@ First the base of the transistors (the middle leg) should be wired to the resist
 
 Then each transistor can be soldered to their corresponding button on the front panel. 
 > [!IMPORTANT]
-> The transistor must be placed in the correct direction of the voltage drop, use a voltmeter to determine the direction.
-> The collector (left leg when facing the flat side of the transistor) should be at the highest potential.
+> The transistor must be placed in the correct direction of the voltage drop, the collector (left leg when facing the flat side of the transistor) should be at the highest potential.
+> Use a voltmeter to determine the direction by placing one probe at each leg of the button. This must be done while the machine is turned on and the front panel is exposed.
 
 ![image](https://github.com/sindrebilden/netpresso/assets/43905215/7b502b2f-9c7e-442a-9dba-33e8d9ead764)
 
