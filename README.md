@@ -90,3 +90,8 @@ The transistors wired on the front panel can be connected to the GPIOS on the ES
 
 # References
 [Pinout ESP8266](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/)
+
+## Related projects
+Not exactly what you had in mind? Take a look at theese projects:
+[Raspberry pi on DeLonghi Magnifica](https://misteu.github.io/RPiCoffee/)
+[MQTT on a DeLonghi Dinamica](https://github.com/tobygray/coffeesp32-link/tree/master)
