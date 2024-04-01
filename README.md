@@ -49,4 +49,4 @@ Feel free to adjust the number of buttons to your own needs.
 
 
 # References
-[https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/](Pinout ESP8266)
+[Pinout ESP8266](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/)
